@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/united/bootstrap.css"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Friend Finder!</title>
+<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/pulse/bootstrap.css"> 
+<link rel="icon" href="https://static1.squarespace.com/static/5ab045435cfd79f301d4959a/t/5ab064c3575d1f54902186e5/favicon.ico" type="image/gif" sizes="16x16">
 </head>
 <body>
-    
+
+<!--moving progress bar just for a touch of color-->
+<div class="progress">
+<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+</div>
+
+<!--Here starts the Form-->
+<form>
+<fieldset>
+<legend>Survey Time</legend>
+
+<!--Name and Link Section-->
+<div class="form-group">
+<label for="exampleInputName">Name</label>
+<input type="name" class="form-control" id="exampleInputName" aria-describedby="name1" placeholder="Enter your name">
+<small id="names" class="form-text text-muted">Don't be shy, what's your name?.</small></div>
+<div class="form-group">
+<label for="exampleInputLink1">your link here</label>
+<input type="link" class="form-control" id="exampleInputLink1" placeholder="your link here"></div>
+<br>
+<!--options and questions-->
+<fieldset class="form-group">
+<legend>First Question</legend>
+<legend>If asked what's wrong, what's your likely answer?</legend>
+<div class="form-check">
+<label class="form-check-label">
+<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">Mars is unusually bright tonight</label></div>
+<div class="form-check">
+<label class="form-check-label">
+<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+THEY STOLE MY PRECIOUS!!!</label></div>
+</fieldset>
+<br>
+<button type="submit" class="btn btn-primary">Submit</button>
+</fieldset>
+</form>
 </body>
 </html>
