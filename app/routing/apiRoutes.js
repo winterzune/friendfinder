@@ -1,6 +1,4 @@
-// ===============================================================================
-// LOAD DATA
-// We are linking our routes to a series of "data" sources.
+// linking our routes to our data aka the friends.
 
 var surveyData = require("../data/friends");
 
